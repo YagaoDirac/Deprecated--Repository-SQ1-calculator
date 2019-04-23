@@ -1,11 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="SQ1calculator.cpp">
+    <ClCompile Include="source\LayerData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="LayerData.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,11 +34,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="SQ1calculator.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-  </ItemGroup>
-  <ItemGroup>
     <QtUic Include="SQ1calculator.ui">
       <Filter>Form Files</Filter>
     </QtUic>
@@ -47,10 +44,13 @@
     </QtRcc>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LayerData.h">
+    <ClInclude Include="source\Def for SQ1 calculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Def for SQ1 calculator.h">
+    <ClInclude Include="source\LayerData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

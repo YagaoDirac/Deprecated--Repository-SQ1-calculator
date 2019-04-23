@@ -113,12 +113,9 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CubeData.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="LayerData.cpp" />
-    <ClCompile Include="SQ1calculator.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="SQ1calculator.h" />
+    <ClCompile Include="source\LayerData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="SQ1calculator.ui" />
@@ -127,8 +124,9 @@
     <QtRcc Include="SQ1calculator.qrc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Def for SQ1 calculator.h" />
-    <ClInclude Include="LayerData.h" />
+    <ClInclude Include="CubeData.h" />
+    <ClInclude Include="source\Def for SQ1 calculator.h" />
+    <ClInclude Include="source\LayerData.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
