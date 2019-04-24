@@ -4,10 +4,16 @@
     <ClCompile Include="source\LayerData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="source\CubeData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CubeData.cpp">
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SQ1calculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Sq1Action.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,8 +56,16 @@
     <ClInclude Include="source\LayerData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CubeData.h">
+    <ClInclude Include="source\CubeData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="source\Sq1Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\SQ1calculator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>

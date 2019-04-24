@@ -1,11 +1,21 @@
 #pragma once
 
 //暂时没用上。之后代码规范化的时候再弄
+enum class SQ1_ReturnValue
+{
+	False = 0,
+	True = 1,
+	OK = 2,
+	bad_param = -1,
+	failed = -2,
+};
+typedef SQ1_ReturnValue sq1rv;
+
 enum class LayerData_ReturnValue
 {
 	False = 0,
 	True = 1,
-	ok = 2,
+	OK = 2,
 	bad_param = -1,
 	failed = -2,
 
@@ -22,3 +32,4 @@ enum class LayerData_ReturnValue
 	lower_layer_is_not_able_to_rotate_at_this_position = -104,
 
 };
+typedef LayerData_ReturnValue ldrv;

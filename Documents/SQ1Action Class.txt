@@ -1,0 +1,7 @@
+SQ1ACtion Class
+
+记录一次动作的类。
+
+具有生成公式的功能。getDisplay。
+
+在CubeData类中用作记录一整串的动作。

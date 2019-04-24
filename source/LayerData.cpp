@@ -379,7 +379,7 @@ LayerData_ReturnValue LayerData::flip(LayerData* lowerLayer, int upper, int lowe
 		lowerLayer->bMainPart[i] = tempMainPart;
 	}
 
-	return LayerData_ReturnValue::ok;
+	return LayerData_ReturnValue::OK;
 }
 
 bool LayerData::operator==(const LayerData& a)
